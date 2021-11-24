@@ -1,0 +1,123 @@
+                 /*Палітра кольорів*/
+  /*колір основного тексту #212121*/
+  /*вторинний колір тексту #757575*/
+  /* білий #FFFFFF;*/
+
+  /*акцентний колір  #2196F3*/
+
+  /*логотип #2196F3, #000000,#FFFFFF*/
+
+  /* контактні дані footer color: rgba(255, 255, 255, 0.6) */
+
+  /* вторинний колір  фону #2F303A*/
+
+  
+
+
+/* Css для index.html */
+
+:root{
+    --primary-text-color:#757575;
+    --title-text-color:#212121;
+    --accent-color: #2196F3;
+    --primary-bg-color:#FFFFFF;
+    --secondary-bg-color: #2F303A;
+
+}
+
+
+body {
+    color: var(--primary-text-color);
+    background-color:var(--primary-bg-color);
+    
+   
+}
+
+.list {
+    list-style: none;
+}
+
+          
+
+/* Logo */
+
+.logo-web {
+    color:var(--accent-color);
+}
+
+.logo-studio {
+    color: #000000;
+}
+.logo-studio-white {
+    color: #FFFFFF;
+}
+
+/* Site-nav */
+
+.site-nav .link {
+    color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color:var(--accent-color);
+}   
+
+.site-nav .link.current {
+    color: var(--accent-color)
+}
+
+.contact-mail,
+.contact-phone {
+    color:var(--primary-text-color);
+}
+
+.contact-mail:hover, :focus,
+.contact-phone:hover,:focus {
+    color: var(--accent-color);
+}
+
+
+/* Hero */
+
+.hero-title{
+    color:#FFFFFF;
+}
+
+.hero-button{
+    color:#FFFFFF;
+    background-color: var(--accent-color);
+    
+}
+
+
+/* Section */
+.section,
+.section-title,
+.section-subject {
+    color:var(--title-text-color);
+}
+
+.section-text{
+    color: var(--primary-text-color);
+}
+
+
+/* Footer */
+.footer{
+    background-color: var(--secondary-bg-color);
+}
+
+
+.address{
+    color: #FFFFFF;
+}
+
+.footer-mail,
+.footer-phone{
+    color: rgba(255, 255, 255, 0.6);
+  
+}
+
+
+/* Css для portfolio */
+
