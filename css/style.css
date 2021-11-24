@@ -20,15 +20,16 @@
     --primary-text-color:#757575;
     --title-text-color:#212121;
     --accent-color: #2196F3;
-    --primary-bg-color:#FFFFFF;
+    --primary-white-color:#FFFFFF;
     --secondary-bg-color: #2F303A;
+    --primary-bg-button: #F5F4FA;
 
 }
 
 
 body {
     color: var(--primary-text-color);
-    background-color:var(--primary-bg-color);
+    background-color:var(--primary-white-color);
     
    
 }
@@ -78,22 +79,30 @@ body {
 
 
 /* Hero */
+.hero{
+    background-color: var(--secondary-bg-color)
+}
 
 .hero-title{
     color:#FFFFFF;
 }
 
-.hero-button{
-    color:#FFFFFF;
-    background-color: var(--accent-color);
+.button {
+    color:var(--title-text-color);
+    background-color:var(--primary-bg-button);
     
+}
+
+.button.primary {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
 }
 
 
 /* Section */
 .section,
 .section-title,
-.section-subject {
+.section-subject{
     color:var(--title-text-color);
 }
 
@@ -116,6 +125,11 @@ body {
 .footer-phone{
     color: rgba(255, 255, 255, 0.6);
   
+}
+
+.footer-mail:hover, :focus,
+.footer-phone:hover,:focus{
+    color: var(--accent-color);
 }
 
 
